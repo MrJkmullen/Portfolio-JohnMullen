@@ -1,0 +1,75 @@
+.nav-pills{
+  font-family: 'Indie Flower', cursive;
+  font-size:2.8em;
+  color:green;
+  opacity:.9;
+}
+h1{
+  font-size:4.0em;
+  font-family:"Indie Flower", cursive;
+  color:black;
+}
+a{
+  color:black;
+}
+body{
+  background-color:white;
+}
+.pageOne{
+  
+   background:url(https://images.unsplash.com/photo-1467809941367-bbf259d44dd6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=8bc0c11e10e2d60ff409a1d03856a41e);
+  background-size:cover;
+  height:700px;
+  
+}
+.btn-default{
+  color:black;
+  font-family:'Indie Flower', cursive;
+  font-size:2.0em;
+  opacity:.9;
+}
+.pageTwo{
+  background:url("https://images.unsplash.com/reserve/sfwmAkieTSyeToJZqfKV_IMG_9840%20BW.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e5e46b2e862a43bee956101bc09a4f0b");
+  background-size:cover;
+  height:800px;
+}
+p{
+  font-size:1.7em;
+  background-color:white;
+  border:1px solid black;
+   opacity:.8;
+  border-radius:10px;
+}
+.me{
+ height:600px;
+  padding-top:15%
+}
+.block{
+  padding-top:100px;
+}
+h2{
+  color:black;
+  font-family:"Indie Flower", cursive;
+}
+
+.page3{
+  background:url(https://images.unsplash.com/photo-1448542146881-1d78dfb2f674?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bdb39f671d79342afaa3c04307b257e7);
+  
+  background-size:cover;
+  height:800px;
+}
+.pitem{
+  height:250px;
+}
+
+.paddingTop{
+  
+ padding-top:2%;
+ padding-bottom:2%;
+
+}
+.page4{ background:url(https://images.unsplash.com/photo-1455955058944-66e6167810f7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e377c1d3bbdc6347ec7fac0bb5f10653);
+      
+ background-size:cover;
+    height:800px
+  }
