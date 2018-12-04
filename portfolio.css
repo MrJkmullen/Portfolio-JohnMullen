@@ -1,12 +1,11 @@
-body {
-  font-family: 'Ubuntu', sans-serif;
-  width:960px;
+.Nav-bar{
+  display: grid;
+  grid-template-columns: 30px 30px 30px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "Navbar1" | "Navbar2" | "Navbar3"
 }
 
-p{
-  color:#525252;
-  font-size:12px;
-}
 
 .skillbar {
   position:relative;
