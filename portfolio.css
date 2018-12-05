@@ -1,11 +1,52 @@
-.Nav-bar{
+.external-container{
   display: grid;
-  grid-template-columns: 30px 30px 30px;
-  grid-template-rows: auto;
+  grid-template-columns: 40px auto 40px;
   grid-template-areas: 
-  "Navbar1" | "Navbar2" | "Navbar3"
+  "left middle right";
 }
 
+.Inner-Grid{
+  grid-area: middle;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "Nav1 Nav2 Nav3"
+  " . img . "
+  " . header ."
+  "Par Par Par"
+  "skill skill skill";
+
+
+
+}  
+.Nav-bar1{
+  grid-area: Nav1;
+}
+
+.Nav-bar2{
+  grid-area: Nav2;
+}
+
+.Nav-bar3{
+  grid-area: Nav3;
+}
+
+.img{
+  justify-self: center;
+  grid-area: img;
+}
+
+.header{
+  justify-self: center;
+  grid-area: header;
+}
+.para{
+  grid-area: Par;
+}
+
+.Skill-bar{
+  grid-area: skill;
+}
 
 .skillbar {
   position:relative;
